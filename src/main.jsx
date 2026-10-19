@@ -35,7 +35,7 @@ const surprises = [
   { title: "Un pequeño secreto", icon: Mail, message: "Si pudiera guardar una emoción en una cajita, guardaría esta alegría de poder dedicarte algo tan especial." },
   { title: "Una estrella para ti", icon: Star, message: "Incluso entre millones de estrellas, me gusta que este pequeño universo tenga tu nombre." },
   { title: "Un latido", icon: Heart, message: "Este corazón es pequeño, pero la intención detrás de este regalo es enorme." },
-  { title: "Tu regalo sorpresa", icon: Gift, message: "Sorpresa, mi niña hermosa. Espero haberte sacado una sonrisa. Feliz mes. ❤️" }
+  { title: "Tu regalo sorpresa", icon: Gift, message: "Sorpresa, mi niña hermosa. Espero haberte sacado una sonrisa. Gracias por estar en mi vida. ❤️" }
 ];
 
 function Starscape() {
@@ -285,7 +285,7 @@ function App() {
         <div className="footer-star">✦</div>
         <p className="eyebrow">Y SIEMPRE RECUERDA</p>
         <h2>De todos los lugares posibles,<br /><em>qué bonito coincidir.</em></h2>
-        <p className="footer-copy">Feliz mes, mi niña hermosa.<br />Este pequeño universo lleva tu nombre, mi niña hermosa. <span>♥</span></p>
+        <p className="footer-copy">Gracias, mi niña hermosa.<br />Este pequeño universo lleva tu nombre, mi niña hermosa. <span>♥</span></p>
         <button className="text-button" onClick={() => goTo("home")}><ArrowLeft size={15} /> Volver a empezar</button>
         <div className="footer-bottom"><span>HECHO CON ♥</span><span>PARA MI NIÑA HERMOSA · CON CARIÑO</span><span>✦ 2026</span></div>
       </footer>
