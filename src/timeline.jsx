@@ -18,14 +18,14 @@ const momentos = [
   },
   {
     fecha: "5 de julio de 2026",
-    etiqueta: "Nuestro primer reencuentro de este año tan pesado",
+    etiqueta: "Nuestro primer reencuentro",
     descripcion:
       "Nuestro primer reencuentro de este año tan pesado.",
     tipo: "normal",
   },
   {
     fecha: "18 de agosto de 2026",
-    etiqueta: "El reencuentro que finalmente nos encaminó a estar juntos otra vez",
+    etiqueta: "Volver a encontrarnos",
     descripcion:
       "El reencuentro que finalmente nos encaminó a estar juntos otra vez.",
     tipo: "normal",
