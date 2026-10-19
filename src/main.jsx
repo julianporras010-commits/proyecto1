@@ -6,6 +6,7 @@ import {
   Gift, Heart, Mail, Music2, Sparkles, Star, X
 } from "lucide-react";
 import "./style.css";
+import Timeline from "./timeline";
 
 const CONFIG = {
   recipient: "Mi niña hermosa",
@@ -242,6 +243,7 @@ function App() {
         <SectionHeading eyebrow="SI PUDIERA REGALARTE ALGO MÁS" title={<>Te regalaría cosas<br />que no caben en <em>una caja.</em></>} />
         <div className="wish-list">
         </div>
+        <Timeline />
         <p className="wish-closing">Como no puedo guardar todos esos momentos en una caja,<br className="desktop-only" /> hoy quise regalarte este pequeño universo.</p>
       </section>
 
