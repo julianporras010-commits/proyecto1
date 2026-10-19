@@ -17,17 +17,17 @@ const momentos = [
     tipo: "normal",
   },
   {
-    fecha: "5 de junio de 2026",
-    etiqueta: "Volvemos a escribir nuestra historia",
+    fecha: "5 de julio de 2026",
+    etiqueta: "Nuestro primer reencuentro de este año tan pesado",
     descripcion:
-      "Después de un salto en el tiempo, seguimos construyendo recuerdos juntos.",
+      "Nuestro primer reencuentro de este año tan pesado.",
     tipo: "normal",
   },
   {
     fecha: "18 de agosto de 2026",
-    etiqueta: "Otro momento para guardar",
+    etiqueta: "El reencuentro que finalmente nos encaminó a estar juntos otra vez",
     descripcion:
-      "Un día más que merece quedarse para siempre en nuestros recuerdos.",
+      "El reencuentro que finalmente nos encaminó a estar juntos otra vez.",
     tipo: "normal",
   },
   {
