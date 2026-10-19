@@ -184,12 +184,12 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--pink);outline-o
 /* --- Snoopy-inspired dreamy Peanuts cartoon world --- */
 :root{font-family:'DM Sans',sans-serif;color:#34495b;background:#bce9f9;--bg:#bce9f9;--pink:#ed7187;--rose:#e45d70;--muted:#627d91;--line:rgba(58,104,133,.18);--serif:'Playfair Display',Georgia,serif}
 body{background:#bce9f9;color:#34495b}
-.app-shell{background:linear-gradient(180deg,rgba(194,235,250,.84),rgba(255,241,218,.88)),url('/snoopy-dreamscape.svg') center center/cover fixed;min-height:100vh;color:#34495b}
-.cartoon-background{position:fixed;inset:0;z-index:-2;pointer-events:none;background:url('/snoopy-dreamscape.svg') center center/cover no-repeat;opacity:.94}
+.app-shell{background:linear-gradient(180deg,rgba(194,235,250,.84),rgba(255,241,218,.88)),url('/proyecto1/snoopy-dreamscape.svg') center center/cover fixed;min-height:100vh;color:#34495b}
+.cartoon-background{position:fixed;inset:0;z-index:-2;pointer-events:none;background:url('/proyecto1/snoopy-dreamscape.svg') center center/cover no-repeat;opacity:.94}
 .starscape{z-index:-1;opacity:.55}.starscape i{background:#fffef2;box-shadow:0 0 7px #fff}
 .nebula-one{background:#f6a9c2;opacity:.18}.nebula-two{background:#ffe3a5;opacity:.25}
 .scroll-progress{background:linear-gradient(90deg,#ff758b,#ffd46e,#82cde9);height:4px}
-.intro-screen{background:linear-gradient(180deg,rgba(134,213,242,.86),rgba(255,238,213,.91)),url('/snoopy-dreamscape.svg') center/cover}
+.intro-screen{background:linear-gradient(180deg,rgba(134,213,242,.86),rgba(255,238,213,.91)),url('/proyecto1/snoopy-dreamscape.svg') center/cover}
 .intro-screen .starscape{opacity:.55}.orbit-heart{border-color:#fff8e4;color:#e95d75;background:#fff8e65c;box-shadow:0 0 55px #fff7c8}.orbit-heart:before,.orbit-heart:after{border-color:#fff8e8}
 .eyebrow{color:#397b9a;letter-spacing:2px}.intro-content h1,.hero h1,.section-heading h2,.question-section h2,.footer h2{color:#274a61;text-shadow:0 2px 0 #fff9}
 .intro-content h1 em,.hero h1 em,.section-heading h2 em,.wish-row h3 em,.question-section h2 em,.footer h2 em,.letter-paper h3 em,.final-modal h3 em{color:#e75f79}
@@ -223,7 +223,7 @@ body{background:#bce9f9;color:#34495b}
 }
 body { background: #22205f; }
 .app-shell {
-  background: linear-gradient(180deg, rgba(22,24,87,.12), rgba(36,24,92,.22)), url('/snoopy-astronaut-bg.png') center top / cover fixed no-repeat;
+  background: linear-gradient(180deg, rgba(22,24,87,.12), rgba(36,24,92,.22)), url('/proyecto1/snoopy-astronaut-bg.png') center top / cover fixed no-repeat;
 }
 .cartoon-background { display:none; }
 .starscape { z-index: 0; opacity: .38; }
@@ -238,7 +238,7 @@ body { background: #22205f; }
   text-shadow: 0 1px 14px rgba(31, 21, 80, .28);
 }
 .intro-screen {
-  background: linear-gradient(180deg, rgba(40,36,112,.12), rgba(36,22,89,.22)), url('/snoopy-plane.gif') center center / auto 100% no-repeat, #8587e5;
+  background: linear-gradient(180deg, rgba(40,36,112,.12), rgba(36,22,89,.22)), url('/proyecto1/snoopy-plane.gif') center center / auto 100% no-repeat, #8587e5;
   background-size: auto, auto 100%, auto;
 }
 .intro-screen::before {
@@ -282,7 +282,7 @@ body { background: #22205f; }
 
 /* Ajustes finales: landing con Snoopy dormido y contraste armonioso */
 .intro-screen {
-  background: linear-gradient(180deg, rgba(33,43,103,.10), rgba(33,43,103,.24)), url('/snoopy-sleeping.gif') center center / cover no-repeat, #b6c7f2;
+  background: linear-gradient(180deg, rgba(33,43,103,.10), rgba(33,43,103,.24)), url('/proyecto1/snoopy-sleeping.gif') center center / cover no-repeat, #b6c7f2;
 }
 .intro-screen::before {
   background: linear-gradient(180deg, rgba(27,39,94,.08), rgba(34,39,100,.32));
@@ -316,7 +316,7 @@ body { background: #22205f; }
 .app-shell { background:#d9e9ff; color:#20365c; }
 .cartoon-background {
   display:block !important; position:fixed; inset:0; z-index:-2; pointer-events:none;
-  background-image: linear-gradient(180deg,rgba(22,38,106,.25),rgba(71,44,132,.15) 45%,rgba(255,196,207,.18)),url('/snoopy-astronaut-bg.png');
+  background-image: linear-gradient(180deg,rgba(22,38,106,.25),rgba(71,44,132,.15) 45%,rgba(255,196,207,.18)),url('/proyecto1/snoopy-astronaut-bg.png');
   background-position:center center; background-size:cover; background-repeat:no-repeat; opacity:1;
 }
 .starscape { opacity:.12; }
@@ -325,7 +325,7 @@ body { background: #22205f; }
 .topbar nav button,.music-button { color:#fff8f0; }
 .topbar nav button:hover,.music-button:hover { color:#ffe2a6; }
 .intro-screen {
-  background:linear-gradient(180deg,rgba(24,45,120,.26),rgba(49,46,132,.25)),url('/snoopy-sleeping.gif');
+  background:linear-gradient(180deg,rgba(24,45,120,.26),rgba(49,46,132,.25)),url('/proyecto1/snoopy-sleeping.gif');
   background-position:center; background-size:cover; background-repeat:no-repeat;
 }
 .intro-content { padding:clamp(22px,4vw,42px); background:rgba(24,43,104,.80); border:1px solid rgba(255,255,255,.5); border-radius:24px; box-shadow:0 22px 70px rgba(21,28,86,.28); backdrop-filter:blur(8px); }
