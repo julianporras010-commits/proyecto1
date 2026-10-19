@@ -14,9 +14,9 @@ const CONFIG = {
   anniversaryDate: "2025-04-11", // Nuestra fecha especial
   dedication: "Mi niña hermosa, este pequeño mundo es solo para ti.",
   photos: [
-    { src: "/recuerdo-abrazo.jpg", caption: "Un abrazo que quisiera guardar para siempre" },
-    { src: "/recuerdo-beso.jpg", caption: "Mi lugar favorito siempre será cerquita de ti" },
-    { src: "/recuerdo-cancha.jpg", caption: "Tú y yo, creando recuerdos bonitos" }
+    { src: `${import.meta.env.BASE_URL}recuerdo-abrazo.jpg`, caption: "Un abrazo que quisiera guardar para siempre" },
+    { src: `${import.meta.env.BASE_URL}recuerdo-beso.jpg`, caption: "Mi lugar favorito siempre será cerquita de ti" },
+    { src: `${import.meta.env.BASE_URL}recuerdo-cancha.jpg`, caption: "Tú y yo, creando recuerdos bonitos" }
   ]
 };
 
@@ -131,7 +131,7 @@ function App() {
   const goTo = id => document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
 
   return <div className="app-shell">
-    <img className="snoopy-cursor" src="/snoopy-plane-transparent.png" alt="" aria-hidden="true" />
+    <img className="snoopy-cursor" src={`${import.meta.env.BASE_URL}snoopy-plane-transparent.png`} alt="" aria-hidden="true" />
     <div className="scroll-progress" style={{ transform: `scaleX(${progress})` }} />
     <div className="cartoon-background" aria-hidden="true" />
     <Starscape />
@@ -164,7 +164,7 @@ function App() {
       }} title="Reproducir o pausar nuestra canción" aria-pressed={musicOn}>
         <Music2 size={16} /><span>{musicOn ? "Pausar canción" : "Nuestra canción"}</span>
       </button>
-      <audio id="our-song" src="/aquel-napzzzz-fragmento.mp3" preload="none" />
+      <audio id="our-song" src={`${import.meta.env.BASE_URL}aquel-napzzzz-fragmento.mp3`} preload="none" />
     </header>
 
     <main>
